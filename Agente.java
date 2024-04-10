@@ -1,43 +1,27 @@
 
 public class Agente {
 
-    private String nome;
-    private String sigla;
-    private String prefixoArea;
+
     private NivelHierarquico nivelHierarquico;
     private Pais pais;
     private String informacoes;
     private String pseudonimo;
+    private AgenciaInteligencia agenciaInteligencia;
 
-    public Agente() {}
+    private Agente() {}
 
-    public Agente(String nome, String sigla, String prefixoArea, NivelHierarquico nivelHierarquico, Pais pais) {
-        this.nome = nome;
-        this.sigla = sigla;
-        this.prefixoArea = prefixoArea;
-        this.nivelHierarquico = nivelHierarquico;
-        this.pais = pais;
+    public Agente(AgenciaInteligencia agenciaInteligencia) {
+        this.agenciaInteligencia = agenciaInteligencia;
     }
 
     // Getters e Setters
-    public String getNome() { 
-        return nome; 
+    public AgenciaInteligencia getAgennciaInteligencia() { 
+        return agenciaInteligencia; 
     }
-    public void setNome(String nome) { 
-        this.nome = nome; 
+    public void setAgenciaInteligencia(AgenciaInteligencia agenciaInteligencia) { 
+        this.agenciaInteligencia = agenciaInteligencia; 
     }
-    public String getSigla() {
-        return sigla; 
-    }
-    public void setSigla(String sigla) { 
-        this.sigla = sigla; 
-    }
-    public String getPrefixoArea() { 
-        return prefixoArea; 
-    }
-    public void setPrefixoArea(String prefixoArea) { 
-        this.prefixoArea = prefixoArea;
-    }
+
     public NivelHierarquico getNivelHierarquico() {
         return nivelHierarquico; 
     }
