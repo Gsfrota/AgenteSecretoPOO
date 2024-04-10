@@ -4,14 +4,14 @@ public class Agente {
     private String nome;
     private String sigla;
     private String prefixoArea;
-    private Enum.NivelHierarquico nivelHierarquico;
+    private NivelHierarquico nivelHierarquico;
     private Pais pais;
     private String informacoes;
     private String pseudonimo;
 
     public Agente() {}
 
-    public Agente(String nome, String sigla, String prefixoArea, Enum.NivelHierarquico nivelHierarquico, Pais pais) {
+    public Agente(String nome, String sigla, String prefixoArea, NivelHierarquico nivelHierarquico, Pais pais) {
         this.nome = nome;
         this.sigla = sigla;
         this.prefixoArea = prefixoArea;
@@ -38,10 +38,10 @@ public class Agente {
     public void setPrefixoArea(String prefixoArea) { 
         this.prefixoArea = prefixoArea;
     }
-    public Enum.NivelHierarquico getNivelHierarquico() {
+    public NivelHierarquico getNivelHierarquico() {
         return nivelHierarquico; 
     }
-    public void setNivelHierarquico(Enum.NivelHierarquico nivelHierarquico) { 
+    public void setNivelHierarquico(NivelHierarquico nivelHierarquico) { 
         this.nivelHierarquico = nivelHierarquico; 
     }
     public Pais getPais() { 

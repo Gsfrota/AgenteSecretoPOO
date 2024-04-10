@@ -1,6 +1,8 @@
-public enum NivelHierarquico {
-    JUNIOR,
-    PLENO,
-    SENIOR,
-    COMANDO;
-  }
+
+    public enum NivelHierarquico {
+        JUNIOR,
+        PLENO,
+        SENIOR,
+        COMANDO
+    }
+

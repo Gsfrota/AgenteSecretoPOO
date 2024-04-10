@@ -1,5 +1,3 @@
-package AgenteSecretoPOO;
-
 public class Mensagem {
     private String texto;
     private NivelSeguranca nivelSeguranca;
