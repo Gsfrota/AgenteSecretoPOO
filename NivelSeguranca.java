@@ -1,5 +1,6 @@
 public enum NivelSeguranca {
     BAIXO,
     MEDIO,
-    ALTO
+    ALTO,
+    TOPSECRET
 }
